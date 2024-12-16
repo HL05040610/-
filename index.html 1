@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的咖啡部落格</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        article {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        aside {
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>我的咖啡部落格</h1>
+    <p>探索咖啡的美好世界</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">首頁</a></li>
+        <li><a href="#about">關於我們</a></li>
+        <li><a href="#contact">聯絡我們</a></li>
+    </ul>
+</nav>
+
+<main>
+    <article>
+        <h2>如何挑選咖啡豆</h2>
+        <p>挑選咖啡豆時，應根據個人喜好選擇烘焙程度。不同的烘焙方式會影響咖啡的口味...</p>
+    </article>
+
+    <aside>
+        <h3>小知識</h3>
+        <p>阿拉比卡咖啡豆是世界上最受歡迎的咖啡品種，味道較為柔和。</p>
+    </aside>
+
+    <article>
+        <h2>如何烘焙咖啡豆</h2>
+        <p>烘焙咖啡是一門藝術。對於初學者來說，了解不同的烘焙程度對於掌握咖啡的風味至關重要...</p>
+    </article>
+</main>
+
+<footer>
+    <p>版權所有 &copy; 2024 咖啡愛好者</p>
+</footer>
+
+</body>
+</html>
